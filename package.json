@@ -1,0 +1,15 @@
+{
+  "name": "average-cubic-weight-calculator",
+  "version": "1.0.0",
+  "description": "Average cubic weight calculator for Kogan Products API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bo Wan",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
