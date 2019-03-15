@@ -5,8 +5,7 @@
     const initialPath = '/api/products/1';
     const category = 'Air Conditioners';
 
-    // const avgCubicWeight = await CubicWeightCalculatingService.calculate(baseUrl, initialPath, category);
-    const avgCubicWeight = await CubicWeightCalculatingService.calculate(baseUrl, initialPath, null);
+    const avgCubicWeight = await CubicWeightCalculatingService.calculate(baseUrl, initialPath, category);
 
     if (avgCubicWeight <= 0.0) {
         console.log(`Error: no available data for Average Cubic Weight of product category: [${category}]`);
